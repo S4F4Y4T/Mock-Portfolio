@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply bg-yellow-50 border-black border-2 rounded-md p-5
+}
+
+.button {
+    @apply bg-yellow-700 rounded-md py-3 px-5 text-sm font-bold m-3 text-white
+}
