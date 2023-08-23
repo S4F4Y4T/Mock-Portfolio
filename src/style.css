@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card{
-    @apply bg-yellow-50 border-black border-2 rounded-md p-5
+    @apply bg-yellow-50 border-black border-2 rounded-xl p-5 min-h-20 flex justify-center flex-col cursor-pointer
 }
 
 .button {
